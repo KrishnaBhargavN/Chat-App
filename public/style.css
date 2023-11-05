@@ -1,0 +1,68 @@
+.logo {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+
+body {
+  background-image: linear-gradient(rgb(255, 255, 255), #faf0e4);
+  height: 700px;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1800px;
+  background-color: #fff3da;
+  margin: auto;
+  height: 80vh;
+  border: solid;
+  border-color: rgb(195, 184, 169);
+  overflow: auto;
+}
+
+.message {
+  margin: 10px;
+  padding: 1%;
+  background-color: #9bcdd2;
+  width: 24%;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 1px #c8ffe0;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+#send-container {
+  text-align: center;
+  max-width: 985px;
+  width: 100%;
+  margin: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
