@@ -2,5 +2,5 @@
 
 Install pakages in main folder and server folder
 ```
-  npm i
+  npm i -y
 ```
